@@ -1,7 +1,7 @@
 # kind-jugend-fam_jugendbefragung2021
 Jugendbefragung 2021 mit den Schwerpunktthemen Socialmedia, Sicherheitsempfinden und Jugendgewalt
 
-<span style="color:red">Datensatz wird aufbereitet, steht ab Ende Juli zur Verfügung.</span>
+**Datensatz wird aufbereitet, steht ab Ende Juli zur Verfügung.**
 
 ## Deutsch
 ### Datenbeschreibung
