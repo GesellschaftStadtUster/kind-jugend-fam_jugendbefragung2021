@@ -3,7 +3,7 @@ library(RCurl)
 library(readr)
 
 
-read_csv()
+data <- read_csv("https://raw.githubusercontent.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/main/opendata_jugendbefragung.csv")
 
 data$A1Socialmedia_TikTok <- ordered(data$A1Socialmedia_TikTok,c("keinen Account","selten","jede Woche","einmal pro Tag","mehrmals täglich"))
 data$A1Socialmedia_Instagram <- ordered(data$A1Socialmedia_Instagram,c("keinen Account","selten","jede Woche","einmal pro Tag","mehrmals täglich"))
