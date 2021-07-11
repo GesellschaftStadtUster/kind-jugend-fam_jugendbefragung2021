@@ -12,9 +12,9 @@ Jugendbefragung 2021 mit den Schwerpunktthemen Socialmedia, Sicherheitsempfinden
 * Eine Liste der Variablen/Fragen mit Beschreibung liegt als HTML und CSV vor.
 
 ### Dateien
-* Tabelle mit Antworten: [opendata_jugendbefragung.csv](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/opendata_jugendbefragung.csv)
-* Liste der Variablen/Fragen: [variablen_fragen.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/variablen_fragen.pdf)
-* Script um Daten in R zu importieren: [datenimport.R](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/datenimport.R)
+* Tabelle mit Antworten: [opendata_jugendbefragung.csv](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/opendata_jugendbefragung.csv)
+* Liste der Variablen/Fragen: [variablen_fragen.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/variablen_fragen.pdf)
+* Script um Daten in R zu importieren: [datenimport.R](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/datenimport.R)
 
 ## Englisch
 
