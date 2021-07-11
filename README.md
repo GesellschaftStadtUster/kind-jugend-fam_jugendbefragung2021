@@ -19,11 +19,13 @@ Jugendbefragung 2021 mit den Schwerpunktthemen Socialmedia, Sicherheitsempfinden
 ## Englisch
 
 ### Data description
-* 600 young people between the ages of 14 and 20 residing in Uster were invited by letter to participate in the youth survey. The 600 young people were determined by means of a stratified random selection from all young people residing in Uster. Both age and gender were taken into account for the stratification.
+* 600 young people between the ages of 14 and 20 residing in Uster were invited by letter to participate in the youth survey. The 600 young people were randomly selected from all young people residing in Uster.
 * The survey took place from June 24, 2021 to July 11, 2021. For the evaluation, 213 responses could be taken into account, the responses of 40 participants were incomplete and were excluded. This corresponds to a usable return rate of 35%.
 * Slightly more women took part in the survey than would have been expected based on the sample (53% instead of 49%). In addition, slightly fewer foreigners took part in the survey (17% instead of 18%) as would have been expected based on the sample. With regard to age, the response corresponds to the proportion of the sample, only the oldest group of participants (18 to 20 years) is slightly underrepresented. Despite these slight distortions, it can be assumed that the youth survey conveys a representative picture and can provide generalizable results.
 * The data set for the youth survey is available as part of the “Open Data Strategy” of the Childhood, Youth and Inclusion Unit. The answers to open questions have been removed from the data set.
 * A list of the variables / questions with description is available as PDF and CSV.
 
 ### Files
-muss noch übersetzt werden.
+* Table with answers: [opendata_jugendbefragung.csv](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/opendata_jugendbefragung.csv)
+* List of variables / questions: [variablen_fragen.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/variablen_fragen.pdf) / [variablen_fragen.csv](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/variablen_fragen.csv)
+* Script to import data into R: [datenimport.R](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/datenimport.R)
