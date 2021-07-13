@@ -17,6 +17,7 @@ Jugendbefragung 2021 mit den Schwerpunktthemen Socialmedia, Sicherheitsempfinden
 * Script um Daten in R zu importieren: [datenimport.R](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/datenimport.R)
 * Bericht zur Jugendbefragung: 
 * Grafiken des Berichts: 
+* Fragebogen: 
 
 ## Englisch
 
@@ -33,3 +34,4 @@ Jugendbefragung 2021 mit den Schwerpunktthemen Socialmedia, Sicherheitsempfinden
 * Script to import data into R: [datenimport.R](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/datenimport.R)
 * Report: 
 * Graphics of the report: 
+* Questionnaire: 
