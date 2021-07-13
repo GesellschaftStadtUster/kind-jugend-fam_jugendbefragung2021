@@ -17,7 +17,7 @@ Jugendbefragung 2021 mit den Schwerpunktthemen Socialmedia, Sicherheitsempfinden
 * Script um Daten in R zu importieren: [datenimport.R](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/datenimport.R)
 * Bericht zur Jugendbefragung: 
 * Grafiken des Berichts: 
-* Fragebogen: [fragebogen_QUExml.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.pdf) / [fragebogen_QUExml.xml](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.xml) \[in PDF fehlt Karte um Ort zu markieren]
+* Fragebogen: [fragebogen_QUExml.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.pdf) / [fragebogen_QUExml.xml](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.xml) \[in PDF fehlt Karte um Ort zu markieren, Fragen D1 - D3]
 
 ## Englisch
 
@@ -34,4 +34,4 @@ Jugendbefragung 2021 mit den Schwerpunktthemen Socialmedia, Sicherheitsempfinden
 * Script to import data into R: [datenimport.R](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/datenimport.R)
 * Report: 
 * Graphics of the report: 
-* Questionnaire: [fragebogen_QUExml.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.pdf) / [fragebogen_QUExml.xml](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.xml) \[Map to mark location is missing in PDF]
+* Questionnaire: [fragebogen_QUExml.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.pdf) / [fragebogen_QUExml.xml](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.xml) \[Map to mark location is missing in PDF, questions D1-D3]
