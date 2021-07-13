@@ -1,0 +1,818 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<questionnaire id="887927">
+  <title>Jugendbefragung 2021</title>
+  <investigator/>
+  <dataCollector/>
+  <questionnaireInfo>
+    <position>before</position>
+    <text>&lt;p&gt;Mit der aktuellen Jugendbefragung 2021 mit den Schwerpunkten Social Media und Sicherheit möchten wir die Bedürfnisse und Einschätzung von Jugendlichen und jungen Erwachsenen abfragen. Wir möchten erfahren, wie sie sich in Uster fühlen und welche Bedürfnisse sie haben. &lt;/p&gt;&lt;p&gt;Hierzu haben wir, so wie dich, 600 Jugendliche und junge Erwachsene aus Uster ausgewählt. Wir verlosen unter allen die an der Umfrage teilnehmen Gutscheine. Zur Auswahl stehen Apple-Pay, Google Play oder Uster-Batzen (damit kann man in vielen Geschäften von Uster bezahlen) mit folgendem Wert:&lt;/p&gt;2x 100 Franken5x 50 Franken10x 30 Franken&lt;p&gt;Die Teilnahme an der Umfrage dauert rund 5-10 Minuten. Am Ende der Umfrage kannst du deine Kontaktdaten angeben und damit an der Verlosung teilnehmen.&lt;/p&gt;</text>
+    <administration>self</administration>
+  </questionnaireInfo>
+  <section id="17" hideinfo="true" hidetitle="true">
+    <sectionInfo>
+      <position>title</position>
+      <text>Vorfragen</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;Wie alt bist du [in Jahren]?&lt;/p&gt;</text>
+      <response varName="Z1Alter">
+        <free>
+          <format>integer</format>
+          <length>10</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Dein Geschlecht&lt;/p&gt;</text>
+      <response varName="Z2Geschlecht">
+        <fixed>
+          <category>
+            <label>männlich</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>weiblich</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>non-binär</label>
+            <value>AO03</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;In welcher Schulstufe bist du?&lt;/p&gt;</text>
+      <response varName="Z3Schule">
+        <fixed>
+          <category>
+            <label>Sekundarstufe A</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>Sekundarstufe B</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>Sekundarstufe C</label>
+            <value>AO03</value>
+          </category>
+          <category>
+            <label>Berufswahlschule</label>
+            <value>AO04</value>
+          </category>
+          <category>
+            <label>Fach- oder Handelsmittelschule</label>
+            <value>AO05</value>
+          </category>
+          <category>
+            <label>Berufsschule</label>
+            <value>AO06</value>
+          </category>
+          <category>
+            <label>Gymnasium</label>
+            <value>AO07</value>
+          </category>
+          <category>
+            <label>Sonstiges</label>
+            <value>-oth-</value>
+            <contingentQuestion varName="Z3Schuleother">
+              <text>Sonstiges</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="13" hideinfo="true" hidetitle="true">
+    <sectionInfo>
+      <position>title</position>
+      <text>Seite 1</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;Welche der folgenden Socialmedia- und Messangerplattformen nutzt du und wie häufig?&lt;/p&gt;</text>
+      <subQuestion varName="A1Socialmedia_AO00">
+        <text>TikTok</text>
+      </subQuestion>
+      <subQuestion varName="A1Socialmedia_AO01">
+        <text>Instagram</text>
+      </subQuestion>
+      <subQuestion varName="A1Socialmedia_AO02">
+        <text>Snapchat</text>
+      </subQuestion>
+      <subQuestion varName="A1Socialmedia_AO03">
+        <text>Facebook</text>
+      </subQuestion>
+      <subQuestion varName="A1Socialmedia_AO04">
+        <text>Whatsapp</text>
+      </subQuestion>
+      <subQuestion varName="A1Socialmedia_AO05">
+        <text>Telegramm</text>
+      </subQuestion>
+      <subQuestion varName="A1Socialmedia_AO06">
+        <text>Twitch</text>
+      </subQuestion>
+      <response varName="A1Socialmedia">
+        <fixed>
+          <category>
+            <label>ich habe keinen Account</label>
+            <value>0</value>
+          </category>
+          <category>
+            <label>selten</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>jede Woche</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>einmal pro Tag</label>
+            <value>3</value>
+          </category>
+          <category>
+            <label>mehrmals täglich</label>
+            <value>4</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Wie sicher fühlst du dich?&lt;/p&gt;</text>
+      <subQuestion varName="A2Sicherheitsgefuehl_AO00">
+        <text>Wie sicher fühlst du dich am Tag draussen in Uster?</text>
+      </subQuestion>
+      <subQuestion varName="A2Sicherheitsgefuehl_AO01">
+        <text>Wie sicher fühlst du dich am Abend oder nachts draussen in Uster?</text>
+      </subQuestion>
+      <subQuestion varName="A2Sicherheitsgefuehl_AO02">
+        <text>Wie sicher fühlst du dich im Internet?</text>
+      </subQuestion>
+      <subQuestion varName="A2Sicherheitsgefuehl_AO03">
+        <text>Wie sicher fühlst du dich zuhause?</text>
+      </subQuestion>
+      <subQuestion varName="A2Sicherheitsgefuehl_AO04">
+        <text>Wie sicher fühlst du dich in der Schule?</text>
+      </subQuestion>
+      <response varName="A2Sicherheitsgefuehl">
+        <fixed>
+          <category>
+            <label>sicher</label>
+            <value>1.5</value>
+          </category>
+          <category>
+            <label>eher sicher</label>
+            <value>0.5</value>
+          </category>
+          <category>
+            <label>eher unsicher</label>
+            <value>-0.5</value>
+          </category>
+          <category>
+            <label>unsicher</label>
+            <value>-1.5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Wurdest du schon mal belästigt, bedroht oder geschlagen?&lt;/p&gt;</text>
+      <subQuestion varName="A3Gewalterfahrung_AO00">
+        <text>Wurdest du schon mal online belästigt?</text>
+      </subQuestion>
+      <subQuestion varName="A3Gewalterfahrung_AO01">
+        <text>Wurdest du schon mal im direkten Kontakt belästigt (nicht-online)?</text>
+      </subQuestion>
+      <subQuestion varName="A3Gewalterfahrung_AO02">
+        <text>Wurdest du schon mal online beleidigt?</text>
+      </subQuestion>
+      <subQuestion varName="A3Gewalterfahrung_AO03">
+        <text>Wurdest du schon mal direkten Kontakt beleidigt (nicht-online)?</text>
+      </subQuestion>
+      <subQuestion varName="A3Gewalterfahrung_AO04">
+        <text>Wurdest du schon mal online bedroht?</text>
+      </subQuestion>
+      <subQuestion varName="A3Gewalterfahrung_AO05">
+        <text>Wurdest du schon mal direkten Kontakt bedroht (nicht-online)?</text>
+      </subQuestion>
+      <subQuestion varName="A3Gewalterfahrung_AO06">
+        <text>Hast du schon einmal ein Bild erhalten, von dem du gewusst hast, dass es verboten ist? (Gewaltdarstellung, pornografischer Inhalt etc.)?</text>
+      </subQuestion>
+      <subQuestion varName="A3Gewalterfahrung_AO07">
+        <text>Wurdest du schon mal geschlagen oder hast Gewalt erfahren?</text>
+      </subQuestion>
+      <response varName="A3Gewalterfahrung">
+        <fixed>
+          <category>
+            <label>noch nie</label>
+            <value>0</value>
+          </category>
+          <category>
+            <label>einmal</label>
+            <value>1</value>
+          </category>
+          <category>
+            <label>2-3 mal</label>
+            <value>2</value>
+          </category>
+          <category>
+            <label>mehr als 3 mal</label>
+            <value>3</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="14" hideinfo="true" hidetitle="true">
+    <sectionInfo>
+      <position>title</position>
+      <text>Seite 2</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;Wenn du dich an einem Ort unsicher fühlst: Was machst du dagegen?&lt;/p&gt;</text>
+      <response varName="B1Unsicher_AO00">
+        <fixed>
+          <category>
+            <label>Ich meide den Ort.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B1Unsicher_AO07">
+        <fixed>
+          <category>
+            <label>Ich mache nichts.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B1Unsicher_AO06">
+        <fixed>
+          <category>
+            <label>Ich melde mich bei der Polizei.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B1Unsicher_AO05">
+        <fixed>
+          <category>
+            <label>Ich spreche mit der Jugendarbeit darüber.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B1Unsicher_AO04">
+        <fixed>
+          <category>
+            <label>Ich spreche mit der Schulsozialarbeit oder Lehrpersonen darüber.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B1Unsicher_AO03">
+        <fixed>
+          <category>
+            <label>Ich spreche mit meinen Kolleginnen und Kollegen darüber.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B1Unsicher_AO02">
+        <fixed>
+          <category>
+            <label>Ich spreche mit meinen Eltern darüber.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B1Unsicher_AO01">
+        <fixed>
+          <category>
+            <label>Ich gehe nicht alleine an den Ort.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B1UnsicherB">
+        <fixed>
+          <category>
+            <label>Sonstiges</label>
+            <value>Y</value>
+            <contingentQuestion varName="B1Unsicherother">
+              <text>Sonstiges</text>
+              <length>24</length>
+              <format>longtext</format>
+            </contingentQuestion>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Du hast angegeben, dass du schon mal &lt;u&gt;online&lt;/u&gt; belästigt, beleidigt oder bedroht wurdest.&lt;p&gt;Welche der folgenden Punkte treffen auf die Täterin oder Täter zu? Markiere alle Punkte die zutreffen.&lt;/p&gt;</text>
+      <response varName="B2BedrohTaeter_AO00">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind mir bekannt.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B2BedrohTaeter_AO01">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind mir nicht bekannt.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B2BedrohTaeter_AO02">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind weiblich.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B2BedrohTaeter_AO03">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind männlich.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B2BedrohTaeter_AO04">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind jünger als ich.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B2BedrohTaeter_AO05">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind gleich alt wie ich.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B2BedrohTaeter_AO06">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind älter als ich.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Was hast du gemacht, als du &lt;u&gt;online&lt;/u&gt; belästigt, beleidigt oder bedroht wurdest?&lt;/p&gt;</text>
+      <response varName="B3BedrohMache_AO02">
+        <fixed>
+          <category>
+            <label>Ich habe die Person blockiert.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B3BedrohMache_AO03">
+        <fixed>
+          <category>
+            <label>Ich habe online zurück beleidigt.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B3BedrohMache_AO04">
+        <fixed>
+          <category>
+            <label>Ich habe die Person persönlich angesprochen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B3BedrohMache_AO05">
+        <fixed>
+          <category>
+            <label>Ich habe mit meinen Eltern darüber gesprochen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B3BedrohMache_AO01">
+        <fixed>
+          <category>
+            <label>Ich habe mein eigenes Profil gelöscht.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B3BedrohMache_AO10">
+        <fixed>
+          <category>
+            <label>Ich habe nichts gemacht.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B3BedrohMache_AO09">
+        <fixed>
+          <category>
+            <label>Mich bei der Polizei gemeldet</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B3BedrohMache_AO08">
+        <fixed>
+          <category>
+            <label>Mit Jugendarbeit darüber gesprochen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B3BedrohMache_AO06">
+        <fixed>
+          <category>
+            <label>Mit Schulsozialarbeit oder Lehrperson darüber gesprochen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B3BedrohMache_AO07">
+        <fixed>
+          <category>
+            <label>Ich habe mit meinen Kolleginnen und Kollegen darüber gesprochen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>Du hast angegeben, dass du schon mal &lt;u&gt;bedroht/geschlagen&lt;/u&gt; wurdest oder sonstige &lt;u&gt;Gewalt erfahren&lt;/u&gt; hast.&lt;p&gt;Welche der folgenden Punkte treffen auf die Täterin oder Täter zu? Markiere alle Punkte die zutreffen.&lt;/p&gt;</text>
+      <response varName="B4GewaltTaeter_AO01">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind Familienangehörige/Verwandte</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B4GewaltTaeter_AO02">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind nahe Bekannte (Kolleg/in, Freund/in)</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B4GewaltTaeter_AO03">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind mir bekannt</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B4GewaltTaeter_AO04">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind mir nicht bekannt</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B4GewaltTaeter_AO05">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind weiblich</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B4GewaltTaeter_AO06">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind männlich</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B4GewaltTaeter_AO07">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind jünger wie ich</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B4GewaltTaeter_AO09">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind älter wie ich</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B4GewaltTaeter_AO08">
+        <fixed>
+          <category>
+            <label>Täterinnen oder Täter sind gleich alt wie ich</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Was hast du gemacht, als du bedroht/geschlagen wurdest oder sonstige Gewalt erfahren hast?&lt;/p&gt;</text>
+      <response varName="B5GewaltMache_AO00">
+        <fixed>
+          <category>
+            <label>Ich habe mit meinen Eltern darüber gesprochen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B5GewaltMache_AO01">
+        <fixed>
+          <category>
+            <label>Ich habe mit meinen Kolleginnen und Kollegen darüber gesprochen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B5GewaltMache_AO02">
+        <fixed>
+          <category>
+            <label>Mit Schulsozialarbeit oder Lehrperson darüber gesprochen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B5GewaltMache_AO03">
+        <fixed>
+          <category>
+            <label>Mit Jugendarbeit darüber gesprochen</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B5GewaltMache_AO04">
+        <fixed>
+          <category>
+            <label>Mich bei der Polizei gemeldet</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B5GewaltMache_AO06">
+        <fixed>
+          <category>
+            <label>Nichts gemacht.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+      <response varName="B5GewaltMache_AO05">
+        <fixed>
+          <category>
+            <label>Zurück geschlagen und mich gewehrt.</label>
+            <value>Y</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="15" hideinfo="true" hidetitle="true">
+    <sectionInfo>
+      <position>title</position>
+      <text>Seite 3</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;Wo fühlst du dich in Uster im öffentlichen Raum am unsichersten? Bitte markiere den Ort auf der Karte.&lt;/p&gt;</text>
+      <response varName="C1Unsicher">
+        <free>
+          <format>longtext</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Wo gibt es in Uster im öffentlichen Raum am meisten Probleme? Bitte markiere den Ort auf der Karte.&lt;/p&gt;</text>
+      <response varName="C2Probleme">
+        <free>
+          <format>longtext</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Wo sollte die Polizei häufiger präsent sein?&lt;/p&gt;</text>
+      <response varName="C3Polizei">
+        <free>
+          <format>longtext</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="20" hideinfo="true" hidetitle="true">
+    <sectionInfo>
+      <position>title</position>
+      <text>Seite 5</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;Welche der folgenden Substanzen hast du schon konsumiert?&lt;/p&gt;</text>
+      <subQuestion varName="E1Konsum_AO00">
+        <text>Alkohol</text>
+      </subQuestion>
+      <subQuestion varName="E1Konsum_AO03">
+        <text>weitere Substanzen</text>
+      </subQuestion>
+      <subQuestion varName="E1Konsum_AO02">
+        <text>Cannabis</text>
+      </subQuestion>
+      <subQuestion varName="E1Konsum_AO01">
+        <text>Tabak</text>
+      </subQuestion>
+      <response varName="E1Konsum">
+        <fixed>
+          <category>
+            <label>noch nie</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>1 mal ausprobiert</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>mehrmals ausprobiert</label>
+            <value>AO03</value>
+          </category>
+          <category>
+            <label>jeden Monat</label>
+            <value>AO04</value>
+          </category>
+          <category>
+            <label>(fast) jedes Wochenende</label>
+            <value>AO05</value>
+          </category>
+          <category>
+            <label>auch regelmässig unter der Woche</label>
+            <value>AO06</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Gibt es weitere Substanzen/Drogen die du konsumiert hast? Wie häufig?&lt;/p&gt;</text>
+      <response varName="E2Substanz">
+        <free>
+          <format>longtext</format>
+          <length>5</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+  <section id="16" hideinfo="true" hidetitle="true">
+    <sectionInfo>
+      <position>title</position>
+      <text>Seite 4</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;Braucht es mehr oder weniger davon in Uster?&lt;/p&gt;</text>
+      <subQuestion varName="D1Bedarf_AO00">
+        <text>Orte wo man sich treffen kann</text>
+      </subQuestion>
+      <subQuestion varName="D1Bedarf_AO02">
+        <text>Eine Stelle um über Probleme zu sprechen</text>
+      </subQuestion>
+      <subQuestion varName="D1Bedarf_AO03">
+        <text>Informationen zum Thema Beleidigung und Belästigung</text>
+      </subQuestion>
+      <subQuestion varName="D1Bedarf_AO04">
+        <text>Informationen zum Thema Bedrohung und Gewalt</text>
+      </subQuestion>
+      <subQuestion varName="D1Bedarf_AO01">
+        <text>Jugendräume</text>
+      </subQuestion>
+      <response varName="D1Bedarf">
+        <fixed>
+          <category>
+            <label>braucht es mehr</label>
+            <value>1.5</value>
+          </category>
+          <category>
+            <label>braucht es eher mehr</label>
+            <value>0.5</value>
+          </category>
+          <category>
+            <label>braucht es eher weniger</label>
+            <value>-0.5</value>
+          </category>
+          <category>
+            <label>braucht es weniger</label>
+            <value>-1.5</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Bitte bewerte die folgenden Angebote.&lt;/p&gt;</text>
+      <subQuestion varName="D2Angebote_AO00">
+        <text>Jugendarbeit</text>
+      </subQuestion>
+      <subQuestion varName="D2Angebote_AO01">
+        <text>allgemein Polizei</text>
+      </subQuestion>
+      <subQuestion varName="D2Angebote_AO02">
+        <text>Jugenddienst der Polizei</text>
+      </subQuestion>
+      <response varName="D2Angebote">
+        <fixed>
+          <category>
+            <label>kenne ich nicht</label>
+            <value>SQ00</value>
+          </category>
+          <category>
+            <label>möchte ich nicht im Kontakt sein</label>
+            <value>SQ01</value>
+          </category>
+          <category>
+            <label>möchte ich nur online in Kontakt sein</label>
+            <value>SQ02</value>
+          </category>
+          <category>
+            <label>möchte ich nur direkt in Kontakt sein</label>
+            <value>SQ03</value>
+          </category>
+          <category>
+            <label>möchte ich sowohl online wie auch direkt im Kontakt sein</label>
+            <value>SQ04</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+  </section>
+  <section id="21" hideinfo="true" hidetitle="true">
+    <sectionInfo>
+      <position>title</position>
+      <text>Seite 6</text>
+      <administration>self</administration>
+    </sectionInfo>
+    <question>
+      <text>&lt;p&gt;Gibt es etwas, was wir unbedingt zur heutigen Jugend wissen sollten? Was beschäftigt dich am meisten?&lt;/p&gt;</text>
+      <response varName="F1Bemerkung">
+        <free>
+          <format>longtext</format>
+          <length>5</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Falls du einen Gutschein gewinnst. Welcher der folgenden möchtest du gerne haben?&lt;/p&gt;</text>
+      <response varName="G07Q20">
+        <fixed>
+          <category>
+            <label>Apple-Pay</label>
+            <value>AO01</value>
+          </category>
+          <category>
+            <label>Google Play</label>
+            <value>AO02</value>
+          </category>
+          <category>
+            <label>Uster-Batzen (damit kann man in vielen Geschäften von Uster bezahlen)</label>
+            <value>AO03</value>
+          </category>
+        </fixed>
+      </response>
+    </question>
+    <question>
+      <text>&lt;p&gt;Bitte gib hier deine Emailadresse an, so dass wir dich kontaktieren können, falls du einen Gutschein gewonnen hast.&lt;/p&gt;</text>
+      <response varName="Email">
+        <free>
+          <format>longtext</format>
+          <length>24</length>
+          <label/>
+        </free>
+      </response>
+    </question>
+  </section>
+</questionnaire>
