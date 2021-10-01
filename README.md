@@ -1,8 +1,6 @@
 # kind-jugend-fam_jugendbefragung2021
 Jugendbefragung 2021 mit den Schwerpunktthemen Socialmedia, Sicherheitsempfinden und Jugendgewalt
 
-**DATENSATZ NOCH NICHT FERTIG AUFBEREITET, STEHT AB ENDE JULI 2021 ZUR VERFÜGUNG**
-
 ## Deutsch
 ### Datenbeschreibung
 * Zur Teilnahme an der Jugendbefragung wurden 600 Jugendliche zwischen 14 und 20 Jahren mit Wohnsitz in Uster per Brief eingeladen. Die 600 Jugendliche wurden mittels einer geschichteten Zufallsauswahl aus allen Jugendlichen mit Wohnsitz in Uster ermittelt. Es wurde sowohl das Alter wie auch das Geschlecht für die Schichtung berücksichtigt.
