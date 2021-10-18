@@ -1,7 +1,7 @@
 # Grafiken zur Kinder- und Jugendbefragung
 
 **Im Bericht verwendete Grafiken:**
-* Abb. 1:  Social Media– und Messengernutzung von Jugendlichen: [1_socialmedianutzung.png]
+* Abb. 1:  Social Media– und Messengernutzung von Jugendlichen: [1_socialmedianutzung.png](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/charts/1_socialmedianutzung.png)
 * Abb. 2:  Sicherheitsempfinden von Jugendlichen;
 * Abb. 3:  Als von Jugendlichen unsicher empfundene Orte in Uster:
 * Abb. 4:  Umgang von Jugendlichen mit Unsicherheitsgefühlen:
