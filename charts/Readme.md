@@ -9,3 +9,6 @@
 * Abb. 6:  Bedürfnisse der Jugendlichen in Uster:[6_beduerfnisse.png](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/charts/6_beduerfnisse.png)
 
 **Weitere Grafiken**
+* a:  Nachfrage und Bekanntheit der Angebote:[a_angebots-nachfrage.png](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/charts/a_angebots-nachfrage.png)
+* b:  Reaktion auf Gewalterfahrung:[b_reaktion-gewalterfahrung.png](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/charts/b_reaktion-gewalterfahrung.png)
+* c:  Suchtmittelkonsum:[c_konsumierte-suchtmittel.png](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/charts/c_konsumierte-suchtmittel.png)
