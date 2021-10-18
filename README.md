@@ -14,7 +14,7 @@ Jugendbefragung 2021 mit den Schwerpunktthemen Socialmedia, Sicherheitsempfinden
 * Liste der Variablen/Fragen: [variablen_fragen.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/variablen_fragen.pdf) / [variablen_fragen.csv](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/variablen_fragen.csv)
 * Script um Daten in R zu importieren: [datenimport.R](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/datenimport.R)
 * Bericht zur Jugendbefragung: [Doku_Jugendbefragung2021_20211013.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/raw/main/Doku_Jugendbefragung2021_20211013.pdf)
-* Grafiken des Berichts: 
+* Grafiken des Berichts: [Grafiken](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/charts/Readme.md)
 * Fragebogen: [fragebogen_QUExml.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.pdf) / [fragebogen_QUExml.xml](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.xml) \[in PDF fehlt Karte um Ort zu markieren, Fragen D1 - D3]
 
 ## Englisch
@@ -31,5 +31,5 @@ Jugendbefragung 2021 mit den Schwerpunktthemen Socialmedia, Sicherheitsempfinden
 * List of variables / questions: [variablen_fragen.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/variablen_fragen.pdf) / [variablen_fragen.csv](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/variablen_fragen.csv)
 * Script to import data into R: [datenimport.R](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/datenimport.R)
 * Report: [Doku_Jugendbefragung2021_20211013.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/raw/main/Doku_Jugendbefragung2021_20211013.pdf)
-* Graphics of the report: 
+* Graphics of the report: [Graphics](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/charts/Readme.md)
 * Questionnaire: [fragebogen_QUExml.pdf](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.pdf) / [fragebogen_QUExml.xml](https://github.com/GesellschaftStadtUster/kind-jugend-fam_jugendbefragung2021/blob/main/fragebogen_QUExml.xml) \[Map to mark location is missing in PDF, questions D1-D3]
